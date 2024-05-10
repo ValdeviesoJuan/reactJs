@@ -7,7 +7,7 @@ export class Dashboard extends Component {
         <div class="flex items-center gap-x-3">
             <h2 class="text-lg font-medium text-gray-800 dark:text-white">Team members</h2>
     
-            <span class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">100 users</span>
+            <span class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full dark:bg-gray-800 dark:text-blue-400">69 users</span>
         </div>
     
         <div class="flex flex-col mt-6">
@@ -62,9 +62,9 @@ export class Dashboard extends Component {
                                             <input type="checkbox" class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"/>
     
                                             <div class="flex items-center gap-x-2">
-                                                <img class="object-cover w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt=""/>
+                                                <img class="object-cover w-10 h-10 rounded-full" src="data:image/jpeg;base64,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" alt=""/>
                                                 <div>
-                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Arthur Melo</h2>
+                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Juan Carlos</h2>
                                                     <p class="text-sm font-normal text-gray-600 dark:text-gray-400">@authurmelo</p>
                                                 </div>
                                             </div>
@@ -78,7 +78,7 @@ export class Dashboard extends Component {
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">Design Director</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">authurmelo@example.com</td>
+                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">carlosjuan@example.com</td>
                                     <td class="px-4 py-4 text-sm whitespace-nowrap">
                                         <div class="flex items-center gap-x-2">
                                             <p class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60">Design</p>
@@ -109,9 +109,9 @@ export class Dashboard extends Component {
                                             <input type="checkbox" class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"/>
     
                                             <div class="flex items-center gap-x-2">
-                                                <img class="object-cover w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""/>
+                                                <img class="object-cover w-10 h-10 rounded-full" src="https://media.tenor.com/I2eS3ycMOEAAAAAe/amelia-watson.png" alt=""/>
                                                 <div>
-                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Amelia. Anderson</h2>
+                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Amelia Watson</h2>
                                                     <p class="text-sm font-normal text-gray-600 dark:text-gray-400">@ameliaanderson</p>
                                                 </div>
                                             </div>
@@ -125,7 +125,7 @@ export class Dashboard extends Component {
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">Lead Developer</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">ameliaanderson@example.com</td>
+                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">watson.amelia@example.com</td>
                                     <td class="px-4 py-4 text-sm whitespace-nowrap">
                                         <div class="flex items-center gap-x-2">
                                             <p class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60">Design</p>
@@ -156,9 +156,9 @@ export class Dashboard extends Component {
                                             <input type="checkbox" class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"/>
     
                                             <div class="flex items-center gap-x-2">
-                                                <img class="object-cover w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1608174386344-80898cec6beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""/>
+                                                <img class="object-cover w-10 h-10 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfXJK4BNDbO6OnH-xv9kzHPeDks9MgoxmXRv59b4XCaQ&s" alt=""/>
                                                 <div>
-                                                    <h2 class="font-medium text-gray-800 dark:text-white ">junior REIS</h2>
+                                                    <h2 class="font-medium text-gray-800 dark:text-white ">King Carlos</h2>
                                                     <p class="text-sm font-normal text-gray-600 dark:text-gray-400">@junior</p>
                                                 </div>
                                             </div>
@@ -172,7 +172,7 @@ export class Dashboard extends Component {
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">Products Managers</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">junior@example.com</td>
+                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">king.carlos@example.com</td>
                                     <td class="px-4 py-4 text-sm whitespace-nowrap">
                                         <div class="flex items-center gap-x-2">
                                             <p class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60">Design</p>
@@ -203,9 +203,9 @@ export class Dashboard extends Component {
                                             <input type="checkbox" class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"/>
     
                                             <div class="flex items-center gap-x-2">
-                                                <img class="object-cover w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
+                                                <img class="object-cover w-10 h-10 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVLI0_9i8QCytOJfG3fhVEtXI53wVD9BKvVirOaYxwYA&s" alt=""/>
                                                 <div>
-                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Olivia Wathan</h2>
+                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Juan de la Papa</h2>
                                                     <p class="text-sm font-normal text-gray-600 dark:text-gray-400">@oliviawathan</p>
                                                 </div>
                                             </div>
@@ -219,7 +219,7 @@ export class Dashboard extends Component {
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">Lead Designer</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">oliviawathan@example.com</td>
+                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">juandepapa@example.com</td>
                                     <td class="px-4 py-4 text-sm whitespace-nowrap">
                                         <div class="flex items-center gap-x-2">
                                             <p class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60">Design</p>
@@ -250,10 +250,10 @@ export class Dashboard extends Component {
                                             <input type="checkbox" class="text-blue-500 border-gray-300 rounded dark:bg-gray-900 dark:ring-offset-gray-900 dark:border-gray-700"/>
     
                                             <div class="flex items-center gap-x-2">
-                                                <img class="object-cover w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""/>
+                                                <img class="object-cover w-10 h-10 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe9AYkgQrvtxdYC8jwpdNGeE1TnWizi2BMrVNt3VtmPQ&s" alt=""/>
                                                 <div>
-                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Mia</h2>
-                                                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400">@mia</p>
+                                                    <h2 class="font-medium text-gray-800 dark:text-white ">Natumbahan</h2>
+                                                    <p class="text-sm font-normal text-gray-600 dark:text-gray-400">@natumba</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,7 +266,7 @@ export class Dashboard extends Component {
                                         </div>
                                     </td>
                                     <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">Graphic Designer</td>
-                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">mia@example.com</td>
+                                    <td class="px-4 py-4 text-sm text-gray-500 dark:text-gray-300 whitespace-nowrap">natumbahan@example.com</td>
                                     <td class="px-4 py-4 text-sm whitespace-nowrap">
                                         <div class="flex items-center gap-x-2">
                                             <p class="px-3 py-1 text-xs text-indigo-500 rounded-full dark:bg-gray-800 bg-indigo-100/60">Design</p>
